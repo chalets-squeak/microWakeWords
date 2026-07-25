@@ -33,11 +33,11 @@ That repo handles new generated wake words and publishes the updated wake-word c
 
 ## Home Assistant Users
 
-This repository is no longer maintained as a Home Assistant voice satellite firmware path. To use these satellites with Tater, flash Tater Native Firmware and connect Home Assistant to Tater if you want Home Assistant in the loop.
+This retired ESPHome firmware is no longer the Home Assistant path for these satellites. Flash Tater Native Firmware, then choose either of the supported connection options:
 
-Future wake words created through the new Tater Wake Words repo may target Tater Native Firmware first and may not work with ESPHome or Home Assistant firmware.
+- **Home Assistant:** Use the [Tater Satellite integration](https://github.com/TaterTotterson/Tater-Home-Assistant-Satellites) to connect and manage Tater Native satellites directly in Home Assistant.
+- **Tater:** Use [Tater](https://github.com/TaterTotterson/Tater) for the complete Tater Assistant voice experience.
 
-- **Tater:** [https://github.com/TaterTotterson/Tater](https://github.com/TaterTotterson/Tater)
 - **Tater Native Firmware:** [https://github.com/TaterTotterson/Tater-Native-Firmware](https://github.com/TaterTotterson/Tater-Native-Firmware)
 - **Tater Wake Words:** [https://github.com/TaterTotterson/Tater-Wake-Words](https://github.com/TaterTotterson/Tater-Wake-Words)
 
